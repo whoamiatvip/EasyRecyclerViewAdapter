@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_black_light_1">#505050</color>
+    <color name="text_color_gray">#999999</color>
+    <color name="theme_color_secondary">#FF6699</color>
+</resources>

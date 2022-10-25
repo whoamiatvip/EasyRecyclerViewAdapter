@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import com.bigw.lib.viewholder.BaseViewHolder
 import com.bigw.lib.viewholder.ViewHolderFactory
 
-class MultiTypeRecyclerViewAdapter<ITEM : Any> : BaseRecyclerViewAdapter<ITEM, BaseViewHolder<ITEM>>() {
+open class MultiTypeRecyclerViewAdapter<ITEM : Any> : BaseRecyclerViewAdapter<ITEM, BaseViewHolder<ITEM>>() {
 
     private val mViewTypes = arrayListOf<ViewTypeHolder<ITEM>>()
 
